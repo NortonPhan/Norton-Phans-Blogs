@@ -1,0 +1,38 @@
+#contact iframe
+{
+    width: 100%;
+}
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    text-shadow: none;
+}
+ 
+input
+{
+    background: grey
+}
+img{
+   width:500px;
+       
+}
+p
+{
+    font-size:30px;
+}
+#turtle
+{
+    font-size:17px;
+}
+#bird
+{
+    font-size:14px;
+}
+body
+{
+    text-align:center;
+    border-radius:30px;
+}

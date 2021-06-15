@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Perter Parker</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+
+                <li><a href="#travel">Travels</a></li>
+                <li><a href="#movie">Movie Reviews</a></li>
+                <li><a href="#news">Environment</a></li>
+                <li><a href="#me">About Me</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <!--
+Start coding from here
+-->
+
+    <div class="container">
+        <div id="travel" class="page-header">
+            <h2 class="text-capitalize">places you must visit</h2>
+        </div>
+        <center>
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/0/0c/GoldenGateBridge-001.jpg">
+                <h4 class="text-capitalize"><kbd>san francisco ca</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize">i visited here in july 2017</h5>
+                <p class="text-muted text-left">San Francisco was a blast. The city's pride and joy, the Golden Gate Bridge, was beatiful. Especially at nighttime, the light illuminated the golden-like bridge to the whole city. Me, my sister and my cousins were pretty excited to be driving on the bridge. I dont remember the trip entirely, for we went  here years ago. We took many pictures and went back to our town. Speaking of our town, it was pretty cool. The most memorable part of the town was the bungee jump. Yeah, right in town. I don't really remember if I built up the courage to do a flip on the trampoline but it was a blast anyways. </p>
+            </div>
+            <br><br>
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="https://a.cdn-hotels.com/gdcs/production96/d1236/0623a678-0ad7-4bdf-8d7f-58aac43acef4.jpg">
+                <h4 class="text-capitalize"><kbd>the bahamas</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize">i went here on april 2017</h5>
+                <p class="text-muted text-left">Wow, just looking at an image of it, it looks like a summer wonderland. When I went here, I was amazed by how nice it looked. The beaches were extremely nice, and the pool areas, they were amazing. In the Bahamas, its not like and regular pool area in your average state. There were multiple food bars, and most importantly: a Super Slide! Thats right, I even went on it. Climbing up, I was completely terrified for my life. When I was going down, it felt like I was completely free falling. There was also a super slide located somewhere else, but with sharks! But of course my protective mother would never let me go on that slide no matter how old I was. </p>
+            </div>
+            <div id="movie" class="page-header">
+                <h2 class="text-capitalize">my movie reviews</h2>
+            </div>
+            <div class="bg-primary movie_head" data-toggle="collapse" data-target="#star_wars">
+                <span class="glyphicon glyphicon-film"></span> Star Wars: The Return of the Jedi<i class="fa fa-chevron-down" aria-hidden="true">&nbsp;</i>
+
+            </div>
+            <div id="star_wars" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/51UB-i-tjdL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg">
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+               <h5 class="text-success text-left text-capitalize">a work of art to end the original trilogy
+                    
+                    </h5> 
+                </div>
+            </div>
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+            <h2 class="text-capitalize">news about the environment</h2>
+            </div>
+            <ul class="list-group">
+            <li class="list-group-item list-group-item-danger col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li" >
+               <h4>Wildfire starts and 27,000+ people had to evacuate</h4> 
+                <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-2000w,f_auto,q_auto:best/newscms/2020_38/3413295/200918-bobcat-fire-jm-2115-3413295.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">In November 2018, the Camp Fire broke out in northern California. This fire went on to consume over 150,000 acres of land, destroy nearly 19,000 structures, and kill 85 people.
+
+The Camp Fire also drove 27,000 people from the town of Paradise out of their homes. The fire, started by power lines, has become the deadliest and most destructive fire in California history.</p>
+                </li>
+                <li class="list-group-item list-group-item-danger col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li" >
+               <h4>Illinois Researchers Working to Save Ornate Box Turtles</h4> 
+                <img src="https://www.moppenheim.tv/wp-content/uploads/AP21130483328312_Final.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p  id="turtle" class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+FRANKLIN GROVE, Ill. (AP) — A team of Illinois researchers is using dogs to track down a threatened species of turtle.
+
+Researchers believe ornate box turtles, once living in half of Illinois’ 102 counties, are found in less than 10.
+
+One known home for the species is in Lee County, and a team from the Chicago Zoological Society and the University of Illinois spent Friday surveying the 3,800-acre (1,500-hectare) Nachusa Grasslands.
+
+A team paced through the grasses trying to spot the small turtles, aided by a group of Boykin spaniels that can sniff out the turtles’ trail. When a human or a dog located a turtle, researchers made notes about the reptile’s eyes, ears, nose and took physical measurements along with a blood sample.
+
+Ornate box turtles’ shells have distinct yellow markings in a sunburst pattern. They typically weigh about a pound and are 3 or 4 inches (8 to 10 centimeters) in length, said Dr. Matt Allender, the Chicago Zoological Society clinical veterinarian and director of the University of Illinois Wildlife Epidemiology Laboratory.
+
+The health study is in its 15th year. The data collected during Friday’s survey will be added to previous years’ findings to help researchers determine what is threatening the environment and health of the ornate box turtles.
+
+“Ornate box turtles are sentinels of environmental and ecosystem health, so they utilize both land and water sources, just like humans do in this environment,” Allender said. “And so the health of the ornate box turtle is a reflection of the health of the environment that we draw our natural resources on.”</p>
+                </li>
+                <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li" >
+               <h4>US Sets Aside Habitat Critical for Survival of Rare Songbird
+</h4> 
+                <img src="https://www.moppenheim.tv/wp-content/uploads/AP21111551937404_Final.jpg" class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p id="bird" class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">U.S. wildlife managers have set aside vast areas across several states as habitat critical to the survival of a rare songbird that migrates each year from Central and South America to breeding grounds in Mexico and the United States.
+
+The U.S. Fish and Wildlife Service announced the final habitat designation for the western yellow-billed cuckoo on Tuesday. It covers about 467 square miles (1,210 square kilometers) along hundreds of miles of rivers and streams in the western states.
+
+Most breeding in the U.S. occurs in Arizona and New Mexico, but the habitat designation also includes areas in California, Colorado, Utah, Texas and Idaho.
+
+The designation isn’t as big as initially proposed. Wildlife managers opted to exclude more than 300 square miles (777 square kilometers) of potential habitat after considering updated information about ongoing conservation activities, the lack of suitable habitat in some areas and potential interference with critical infrastructure.
+
+“This designation identifies important feeding and breeding grounds for the cuckoo to support the species’ recovery while also balancing the need in finding solutions that support current and future land-use plans,” Michael Fris, field supervisor for the Sacramento Fish and Wildlife Office, said in a statement.
+
+A habitat plan that spanned more than 850 square miles (2,200 square kilometers) was first floated in 2014 but never approved. The Trump administration proposed a smaller area in 2020, prompting the latest round of public comments. As a result, the designation issued this week by the Biden administration was further reduced.
+
+“This failure reflects the real need for the Biden administration to bring in new leadership and reform the agency,” said Brian Segee, a senior attorney at the Center for Biological Diversity, a group that works to protect endangered species.
+
+Federal biologists describe the cuckoo as an elusive species. Difficult to observe, it selects its nesting spots based on habitat conditions and the availability of food. That means breeding habitat not suitable one year may become suitable the next due to increased rainfall or flooding, while favorable areas might degrade the next year.
+
+Each spring and fall, the cuckoo uses river corridors as routes to travel between its wintering and breeding grounds. Nesting pairs find refuge in willows, cottonwoods and other trees along waterways and once their chicks hatch, their voracious appetites for insects help them fuel up for the return trip south.
+
+Listed as threatened in 2014, biologists say the bird has seen population declines due to loss of riparian habitat and habitat fragmentation resulting from agriculture, dams and river management, erosion, overgrazing and competition from exotic plants.</p>
+                </li>
+            </ul>
+           
+        </center>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <section id="contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0" allowfullscreen=""></iframe>
+
+
+       
+    </section>
+     <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+            <h2 class="text-capitalize">about me</h2>
+            </div>
+          <img class="image-circle" src="https://cdn.discordapp.com/attachments/828349270443950112/853101486930395146/unknown.png" >
+     <div class="contact_1">
+
+            <a href="mailto:my@gmail.com?Subject=Hi">
+                <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;kietnortonphan@gmail.com</h5>
+            </a>
+
+            <a href="#">
+                <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;myinstagramid</h5>
+            </a>
+        </div>
+   <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+            <h2 class="text-capitalize">Books</h2>
+            </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <h3>George R.R. Martin</h3>
+        <h4>
+        <mark class="header_entrepreneur" >
+            <i>
+            <sup><i class="fa fa-quote-left" aria-hidden="true"></i></sup>
+                A mind needs books as a sword needs a whetstone, if it is to its keep its edge.
+                <sup><i class="fa fa-quote-right" aria-hidden="true"></i></sup>
+            </i>
+            </mark>
+        </h4>
+           <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+            <h2 class="text-capitalize">My List of Books</h2>
+            </div>
+           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#The_Phantom_Tollbooth" >
+          <img src="https://images-na.ssl-images-amazon.com/images/I/51HtbutfK+L._SY344_BO1,204,203,200_.jpg" >
+               <hr>
+               <p class="text-primary">The Phantom Tollbooth</p>
+            </div>
+        <div class="modal fade" id="The_Phantom_Tollbooth">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">The Phantom Tollbooth</h4>
+                </div>
+                <div class="modal-body">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/51HtbutfK+L._SY344_BO1,204,203,200_.jpg" class="img-responsive img-modal">
+                    <p class="p_modal">Milo is a boy with too much time on his hands while not being interested in anything in the world. Everything changes when he comes home to a tollbooth straight in his room. When he goes through the tollbooth, the land is wayyyy beyond his expectations. With creatures and humans as strange as can be, new kingdoms and seas roaming for miles. As Milo journeys further into the "Land Beyonds" he learns that the world is not boring and there are infinite possibilities and things to do. In this book, you'll see Milo progress as a person and see the author, Norton Juster has a way with words. <br>
+                    <a href="https://www.amazon.com/The-Phantom-Tollbooth/dp/B00824SE6I" ><b>AMAZON LINK</b></a>
+                    </p>
+                </div>
+            </div>
+            </div>
+        </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#My_Fathers_Dragon" >
+          <img src="https://images-na.ssl-images-amazon.com/images/I/61sc3hZ8BeL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg" >
+               <hr>
+               <p class="text-primary">My Father's Dragon</p>
+            </div>
+        <div class="modal fade" id="My_Fathers_Dragon">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">My Father's Dragon</h4>
+                </div>
+                <div class="modal-body">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/61sc3hZ8BeL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg">
+                    <p class="p_modal">This book tells the story of a boy who stowawayed in a ship to an island full of talking animals. This child, had always dreamed of being able to fly. So when he heard the news of a captured dragon, he came right away. The boy however, came prepared. He brought multiple items along the way for his journey. The boy cleverly uses these items to outsmart any animals trying to eat him. He was able to outwit hungry tigers, bulky gorillas, and a full lake of aligators. This boy used his brain to overpower anything that stood in his way, and got what he wanted. <br>
+                    <a href="https://www.amazon.com/Fathers-Dragon-Ruth-Stiles-Gannett/dp/0486492834" ><b>AMAZON LINK</b></a>
+                    </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#Dinosaurs_Before_Dark" >
+          <img src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-book/magictreehouse.jpg?itok=oJbGgKLL" >
+               <hr>
+               <p class="text-primary">Dinosaurs Before Dark (The Magic Treehouse)</p>
+            </div>
+        <div class="modal fade" id="Dinosaurs_Before_Dark">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Dinosaurs Before Dark (The Magic Treehouse)</h4>
+                </div>
+                <div class="modal-body">
+                <img src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-book/magictreehouse.jpg?itok=oJbGgKLL">
+                    <p class="p_modal">I liked this book of the series a lot more than some other books. Its about these siblings, Jack and Annie, use this magic treehouse and go back in time to the dinosaur age. The reader can learn a lot of the dinosaur's nature, its habitat, and much other things. Learning about dinosaurs was really fun especially in this style of informative writing. You should definitely check out the other books as well. <br>
+                    <a href="https://www.amazon.com/Dinosaurs-Before-Dark-Magic-House/dp/0679824111" ><b>AMAZON LINK</b></a>
+                    </p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+</body></html>
